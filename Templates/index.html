@@ -22,9 +22,9 @@
       <!-- Add section for Mars News -->
       <div class="row" id="mars-news">
         <div class="col-md-12">
-			<div class="panel panel-default">
-				<div style={background-color:#337ab7; border-color:#337ab7 !important} class="panel-heading">
-				  <h1 class="panel-title">Latest Mars News</h1>
+			<div class="panel panel-default" style="border-color: #337ab7;">
+				<div class="panel-heading" style="background-color: #337ab7;">
+				  <h1 class="panel-title" style="color: white;">Latest Mars News</h1>
 				</div>
 				<div class="panel-body">
 				  <h4>{{ mars.news_title }}</h4>
@@ -34,13 +34,13 @@
          </div>
 	  </div>
 
-
+    
       <!-- Section for Featured Image and Facts table -->
       <div class="row" id="mars-featured-image">
         <div class="col-md-8">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-				  <h1 class="panel-title">Featured Mars Image</h1>
+			<div class="panel panel-default" style="border-color: #337ab7;">
+				<div class="panel-heading" style="background-color: #337ab7;">
+				  <h1 class="panel-title" style="color: white;">Featured Mars Image</h1>
 				</div>
 				<div class="panel-body">
 				<!-- if images is False/None/non-existent, then default to error message -->
@@ -54,12 +54,14 @@
          </div>	
 		<div class="col-md-4">
 			<!-- Mars Facts -->
-			<div class="panel panel-default">
-			  <div class="panel-heading">
-				<h3 class="panel-title">Mars Facts</h3>
+			<div class="panel panel-default" style="border-color: #337ab7;">
+			  <div class="panel-heading" style="background-color: #337ab7;">
+				<h3 class="panel-title" style="color: white;">Mars Facts</h3>
 			  </div>
 			  <div class="panel-body">
+          <table class="table table-hover"
 				{{ mars.facts | safe }}
+          </table>
 			  </div>
 			</div>
 		</div>
