@@ -14,7 +14,7 @@ The Flask website contained a button to initiate a scrape of new data.
 
 The Flask website contained Bootstrap 3 components, which were then customized to present a unique site.  The final html includes Bootstrap panels, which have been modified to have a blue background and border, with white header text.  The data table has been modified with a hover feature that highlights the desired row.
 
-![Bootstrap HTML Customizations](Reources/html_customization.png)
+![Bootstrap HTML Customizations](Resources/html_customization.png)
 
 ### Responsive Design
 An additional goal of this project was to ensure that the Flask application was responsive to the viewing device.  The following images demonstrate the adaption of the site rendering for multiple devices in both vertical and horizontal orientations.
