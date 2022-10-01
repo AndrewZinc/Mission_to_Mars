@@ -1,3 +1,9 @@
+# local files
+Untitled.ipynb
+Mission_to_Mars.ipynb
+.gitignore
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
